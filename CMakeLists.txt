@@ -3,4 +3,4 @@ project(basic_render)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(basic_render main.cpp vec3.h)
+add_executable(basic_render main.cpp vec3.h ray.h)
