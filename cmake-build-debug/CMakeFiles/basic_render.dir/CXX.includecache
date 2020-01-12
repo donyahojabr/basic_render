@@ -11,4 +11,20 @@ iostream
 -
 fstream
 -
+vec3.h
+/Users/donyahojabr/Documents/basic_render/vec3.h
+ray.h
+/Users/donyahojabr/Documents/basic_render/ray.h
+
+/Users/donyahojabr/Documents/basic_render/ray.h
+vec3.h
+/Users/donyahojabr/Documents/basic_render/vec3.h
+
+/Users/donyahojabr/Documents/basic_render/vec3.h
+math.h
+-
+stdlib.h
+-
+iostream
+-
 
