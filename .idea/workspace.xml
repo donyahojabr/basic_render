@@ -13,9 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa6e53fa-c898-433b-94ce-cf69dc881bd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/basic_render.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/basic_render.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/basic_render.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/basic_render.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/basic_render.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/basic_render.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/basic_render.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/basic_render.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/basic_render" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/basic_render" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.ppm" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test.ppm" afterDir="false" />
@@ -76,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578671571142</updated>
       <workItem from="1578671573084" duration="3329000" />
-      <workItem from="1578696507684" duration="6541000" />
+      <workItem from="1578696507684" duration="8291000" />
     </task>
     <servers />
   </component>
