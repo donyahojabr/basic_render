@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/Users/donyahojabr/Documents/basic_render/hitable.h
+ray.h
+/Users/donyahojabr/Documents/basic_render/ray.h
+
+/Users/donyahojabr/Documents/basic_render/hitable_list.h
+hitable.h
+/Users/donyahojabr/Documents/basic_render/hitable.h
+
 /Users/donyahojabr/Documents/basic_render/main.cpp
 iostream
 -
@@ -15,10 +23,18 @@ vec3.h
 /Users/donyahojabr/Documents/basic_render/vec3.h
 ray.h
 /Users/donyahojabr/Documents/basic_render/ray.h
+sphere.h
+/Users/donyahojabr/Documents/basic_render/sphere.h
+hitable_list.h
+/Users/donyahojabr/Documents/basic_render/hitable_list.h
 
 /Users/donyahojabr/Documents/basic_render/ray.h
 vec3.h
 /Users/donyahojabr/Documents/basic_render/vec3.h
+
+/Users/donyahojabr/Documents/basic_render/sphere.h
+hitable.h
+/Users/donyahojabr/Documents/basic_render/hitable.h
 
 /Users/donyahojabr/Documents/basic_render/vec3.h
 math.h
