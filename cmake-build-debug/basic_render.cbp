@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/donyahojabr/Documents/basic_render/camera.h">
+			<Option target="basic_render"/>
+		</Unit>
 		<Unit filename="/Users/donyahojabr/Documents/basic_render/hitable.h">
 			<Option target="basic_render"/>
 		</Unit>

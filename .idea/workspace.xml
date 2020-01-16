@@ -12,9 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa6e53fa-c898-433b-94ce-cf69dc881bd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hitable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hitable_list.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sphere.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camera.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/basic_render.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/basic_render.dir/CXX.includecache" afterDir="false" />
@@ -24,8 +22,10 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/basic_render" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/basic_render" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/basic_render.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/basic_render.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.ppm" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test.ppm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hitable_list.h" beforeDir="false" afterPath="$PROJECT_DIR$/hitable_list.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ray.h" beforeDir="false" afterPath="$PROJECT_DIR$/ray.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sphere.h" beforeDir="false" afterPath="$PROJECT_DIR$/sphere.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vec3.h" beforeDir="false" afterPath="$PROJECT_DIR$/vec3.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,8 @@
       <updated>1578671571142</updated>
       <workItem from="1578671573084" duration="3329000" />
       <workItem from="1578696507684" duration="8398000" />
-      <workItem from="1578947651892" duration="3923000" />
+      <workItem from="1578947651892" duration="4432000" />
+      <workItem from="1579129243852" duration="5994000" />
     </task>
     <servers />
   </component>
@@ -102,5 +103,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="CidrExceptionBreakpoint" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

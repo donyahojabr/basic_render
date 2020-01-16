@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/donyahojabr/Documents/basic_render/camera.h
+ray.h
+/Users/donyahojabr/Documents/basic_render/ray.h
+
 /Users/donyahojabr/Documents/basic_render/hitable.h
 ray.h
 /Users/donyahojabr/Documents/basic_render/ray.h
@@ -27,6 +31,8 @@ sphere.h
 /Users/donyahojabr/Documents/basic_render/sphere.h
 hitable_list.h
 /Users/donyahojabr/Documents/basic_render/hitable_list.h
+camera.h
+/Users/donyahojabr/Documents/basic_render/camera.h
 
 /Users/donyahojabr/Documents/basic_render/ray.h
 vec3.h
@@ -37,10 +43,10 @@ hitable.h
 /Users/donyahojabr/Documents/basic_render/hitable.h
 
 /Users/donyahojabr/Documents/basic_render/vec3.h
+iostream
+-
 math.h
 -
 stdlib.h
--
-iostream
 -
 

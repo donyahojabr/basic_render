@@ -25,19 +25,18 @@ bool sphere::hit(const ray& r, float tmin, float tmax, hit_record& rec) const {
     if(discriminant > 0) {
         float temp = (-b - sqrt(b*b-a*c))/a;
         //std::cout << temp << " ";
-        if(temp < tmax && temp >= -2){ //hardcoded value, seems to work..
+        if(temp < tmax && temp > tmin){ //hardcoded value, seems to work..
             rec.t = temp;
             rec.p = r.point_at_parameter(rec.t);
-            vec3 temp1(rec.p-center);
-            rec.normal = vec3(temp1.x()/radius, temp1.y()/radius, temp1.z()/radius);
+            rec.normal = (rec.p-center)/radius;
             return true;
         }
         temp = (-b+sqrt(b*b-a*c))/a;
         if(temp < tmax && temp > tmin) { //&& temp > tmin
             rec.t = temp;
             rec.p = r.point_at_parameter(rec.t);
-            vec3 temp1(rec.p-center);
-            rec.normal = vec3(temp1.x()/radius, temp1.y()/radius, temp1.z()/radius);
+            rec.normal = (rec.p-center)/radius;
+            return true;
         }
     }
     return false;
