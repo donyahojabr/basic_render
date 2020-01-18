@@ -5,6 +5,7 @@ CMakeFiles/basic_render.dir/main.cpp.o: ../camera.h
 CMakeFiles/basic_render.dir/main.cpp.o: ../hitable.h
 CMakeFiles/basic_render.dir/main.cpp.o: ../hitable_list.h
 CMakeFiles/basic_render.dir/main.cpp.o: ../main.cpp
+CMakeFiles/basic_render.dir/main.cpp.o: ../material.h
 CMakeFiles/basic_render.dir/main.cpp.o: ../ray.h
 CMakeFiles/basic_render.dir/main.cpp.o: ../sphere.h
 CMakeFiles/basic_render.dir/main.cpp.o: ../vec3.h

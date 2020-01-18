@@ -92,6 +92,9 @@
 		<Unit filename="/Users/donyahojabr/Documents/basic_render/main.cpp">
 			<Option target="basic_render"/>
 		</Unit>
+		<Unit filename="/Users/donyahojabr/Documents/basic_render/material.h">
+			<Option target="basic_render"/>
+		</Unit>
 		<Unit filename="/Users/donyahojabr/Documents/basic_render/ray.h">
 			<Option target="basic_render"/>
 		</Unit>

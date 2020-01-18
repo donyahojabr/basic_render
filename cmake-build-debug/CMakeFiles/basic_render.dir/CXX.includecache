@@ -33,6 +33,14 @@ hitable_list.h
 /Users/donyahojabr/Documents/basic_render/hitable_list.h
 camera.h
 /Users/donyahojabr/Documents/basic_render/camera.h
+material.h
+/Users/donyahojabr/Documents/basic_render/material.h
+
+/Users/donyahojabr/Documents/basic_render/material.h
+ray.h
+/Users/donyahojabr/Documents/basic_render/ray.h
+hitable.h
+/Users/donyahojabr/Documents/basic_render/hitable.h
 
 /Users/donyahojabr/Documents/basic_render/ray.h
 vec3.h
