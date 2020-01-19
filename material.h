@@ -37,6 +37,12 @@ vec3 reflect(const vec3& v, const vec3& n){
     return v-2*dot(v,n)*n;
 }
 
+float shlick(float cosine, float ref_idx){
+    float r0 = (1-ref_idx)/(1+ref_idx);
+    r0 = r0*r0;
+    return r0 + (1-r0)*pow((1-cosine),5);
+}
+
 class dielectric : public material {
 public:
     dielectric(float ri): ref_idx(ri){}
@@ -46,21 +52,32 @@ public:
         float ni_over_nt;
         attenuation = vec3(1.0,1.0,1.0);
         vec3 refracted;
+        float reflect_prob;
+        float cosine;
         if(dot(r_in.direction(), rec.normal)>0) {
             outward_normal = -rec.normal;
             ni_over_nt = ref_idx;
+            cosine = ref_idx * dot(r_in.direction(),rec.normal)/r_in.direction().length();
         }
         else{
             outward_normal = rec.normal;
             ni_over_nt = 1.0/ref_idx;
+            cosine = -dot(r_in.direction(),rec.normal)/r_in.direction().length();
         }
         if(refract(r_in.direction(),outward_normal,ni_over_nt,refracted)){
-            scattered = ray(rec.p, refracted);
+            reflect_prob = shlick(cosine, ref_idx);
         }
         else{
             scattered = ray(rec.p,reflected);
-            return false;
-        } return true;
+            reflect_prob = 1.0;
+        }
+        if(drand48()<reflect_prob){
+            scattered = ray(rec.p,reflected);
+        }
+        else{
+            scattered = ray(rec.p,refracted);
+        }
+        return true;
     }
     float ref_idx;
 };
